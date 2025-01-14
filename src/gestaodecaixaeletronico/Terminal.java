@@ -62,7 +62,7 @@ public class Terminal {
                     }
                     break;
                 case 8:
-                    this.meuCaixa.consultaExtrato(getInt("Numero da Conta"), getInt("Senha"));
+                    System.out.println(this.meuCaixa.consultaExtrato(getInt("Numero da Conta"), getInt("Senha")));
                     break;
             }
             opcao = getOpcao();

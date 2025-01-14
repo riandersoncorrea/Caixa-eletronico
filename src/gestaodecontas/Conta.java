@@ -24,9 +24,8 @@ public class Conta {
     }
     
     
-
     public HistoricoDeLancamentos getHistorico() {
-        return historico;
+        return this.historico;
     }
 
     public void setTitular(Cliente titular) {

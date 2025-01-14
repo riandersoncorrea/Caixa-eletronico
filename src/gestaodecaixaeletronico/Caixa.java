@@ -83,6 +83,7 @@ public class Caixa {
         }
         HistoricoDeLancamentos historico = conta.getHistorico();
         String extrato = historico.geraHistoricoDeLancamentos();
+        
         if (extrato == null) {
             return "Nenhum histórico encontrado.";
         }
